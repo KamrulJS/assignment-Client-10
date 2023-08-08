@@ -3,7 +3,9 @@ import img1 from "../images/plate-with-nachos-amidst-mexican-food.jpg";
 import img2 from "../images/mexican-kitchen.jpg";
 import img3 from "../images/mexican-tacos-with-beef-tomato-sauce-salsa.jpg"
 
+
 const Banner = () => {
+
   return (
     <div className="mt-4">
       <div className="carousel w-11/12 mx-auto text-center">
