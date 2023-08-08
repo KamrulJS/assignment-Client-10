@@ -7,6 +7,7 @@ import { getApp } from "firebase/app";
 import app from "../../config_firebase";
 import ActiveLink from "./activeLink/ActiveLink";
 
+
 const Nav = ({ children }) => {
   const { user, setLoading, setUser } = useContext(AuthContext);
   const navigate = useNavigate();
