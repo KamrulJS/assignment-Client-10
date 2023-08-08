@@ -3,6 +3,8 @@ import { AuthContext } from '../provider/AuthProvider';
 import Recipe from './Recipe';
 import { useLoaderData, useParams } from 'react-router-dom';
 
+
+
 const ChefDetails = () => {
     const {id} = useParams();
    
@@ -16,6 +18,7 @@ const ChefDetails = () => {
     
     const {image,name,recipes,recipesNum,experience,description}= chef;
     console.log(recipes);
+    
     
     return (
         <div className='w-11/12 mx-auto my-6 pb-6'>
