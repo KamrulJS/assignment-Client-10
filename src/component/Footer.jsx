@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className='w-11/12 mx-auto my-6'/>
-            <p className='text-center pb-6'>Copyright © 2023 MaxCook All Right Reserved </p>
+            <p className='text-center pb-6'>Copyright © 2023 Cook-Man All Right Reserved </p>
         </div>
     );
 };
