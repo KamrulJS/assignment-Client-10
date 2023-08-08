@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const Header = () => {
     return (
         <div>
@@ -13,5 +14,6 @@ const Header = () => {
         </div>
     );
 };
+
 
 export default Header;
